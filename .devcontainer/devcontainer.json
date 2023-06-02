@@ -14,5 +14,15 @@
             "label": "React App",
             "onAutoForward": "openPreview"
         }
+    },
+
+    "customizations": {
+        "vscode":{
+            "extensions": ["esbenp.prettier-vscode"],
+            "settings": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode",
+                "editor.formatOnSave": true
+            }
+        }
     }
 }
